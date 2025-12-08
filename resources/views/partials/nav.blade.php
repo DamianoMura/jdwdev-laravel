@@ -3,9 +3,9 @@ $links=config('links');
 ?>
 
 
-    <nav class="mx-auto flex justify-between items-center py-4 bg-blue-400 px-6 rounded-md mb-6">
+    <nav class="flex items-center justify-between px-6 py-4 mx-auto mb-6 bg-blue-400 rounded-md">
         <div>
-            <a href="./" class="text-2xl font-bold flex items-center gap-2s">
+            <a href="./" class="flex items-center text-2xl font-bold gap-2s">
               < <img src="{{Vite::asset('./resources/img/logo-jdw-trans-black.png')}}" alt="jdw logo" class="h-8 "> 
                <span> {{"dev.it>"}} </span>
             </a>
@@ -14,8 +14,8 @@ $links=config('links');
         <div class="hidden lg:flex">
             <ul class="flex-end">
                <li class="flex gap-6">
-                @foreach ($links as $link)
-                    <a href="{{$link['url']}}" class="text-white hover:text-gray-200">{{$link['label']}}</a>
+                
+                    <a href="/about" class="text-white hover:text-gray-200">about</a>
                </li>
             </ul>
         </div>
@@ -34,7 +34,7 @@ $links=config('links');
                 class="p-3 w-56 origin-top-right rounded-md bg-white shadow-lg outline-1 outline-black/5 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
                 <div class="py-1">
                    <ul >
-                    <li class="flex flex-col gap-4  ">
+                    <li class="flex flex-col gap-4 ">
                       links
                     </li>
                 </ul>
