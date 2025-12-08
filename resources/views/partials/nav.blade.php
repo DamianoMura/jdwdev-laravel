@@ -15,7 +15,7 @@ $links=config('links');
             <ul class="flex-end">
                <li class="flex gap-6">
                 
-                    <a href="/about" class="text-white hover:text-gray-200">about</a>
+                    <a href="/#" class="text-white hover:text-gray-200">about</a>
                </li>
             </ul>
         </div>
