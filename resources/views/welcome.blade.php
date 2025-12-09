@@ -2,7 +2,7 @@
 @section('content')
                     <div class="px-5 mx-auto mt-6">
                       
-                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
+                        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8">
                             <div
                                 
                                 id="docs-card"
@@ -83,7 +83,7 @@
                                 </div>
 
                                 <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">work in progress</h2>
+                                    <h2 class="text-xl font-semibold text-black dark:text-white">work in progress log</h2>
 
                                     <p class="mt-4 text-sm/relaxed">
                                         sito ancora in fase di costruzione.

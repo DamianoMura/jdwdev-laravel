@@ -4,7 +4,7 @@
 
             <img src="{{url('./img/Logo_aruba_it.png')}}" alt="aruba" class="mr-5">
             
-            <p>Linux Web Hosting Advanced Plan</p>
+            <p class="hidden md:flex">Linux Web Hosting Advanced Plan</p>
         </li>
         <li class="flex items-center justify-between">
             <div>
@@ -18,7 +18,7 @@
 
                 </div>
             </div> 
-            <ul>
+            <ul class="hidden md:flex">
                 <li>Laravel v{{ Illuminate\Foundation\Application::VERSION }}</li>
                 <li>PHP v{{ PHP_VERSION }}</li>
                 <li>VITE V7.2.4</li>
