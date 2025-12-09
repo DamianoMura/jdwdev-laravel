@@ -9,13 +9,12 @@
            
         </a>
 
-        <ul class="items-center hidden space-x-8 text-3xl text-white md:flex md:pl-28">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Progetti</a></li>
+        <ul class="items-center hidden space-x-8 text-2xl text-white md:flex md:pl-28">
+            <li class="menu-link"><a href="/">Home</a></li>
+            <li class="menu-link"><a href="/about">About</a></li>
+            <li class="menu-link"><a href="/projects">Progetti</a></li>
         </ul>
 
-       
 
         <button aria-label="menu-btn" type="button" class="inline-block transition menu-btn md:hidden active:scale-90">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
