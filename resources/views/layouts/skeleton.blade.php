@@ -23,9 +23,9 @@
 <body>
 
 
-  <main class="min-h-screen">
+  <div id="layout">
     @yield('layout')
-  </main>
+  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>

@@ -18,34 +18,81 @@
 
                                         <div class="pt-3 sm:pt-5 lg:pt-0">
                                             <h2 class="text-xl font-semibold text-black dark:text-white">Benvenuti nel mio sito vetrina</h2>
-                                            <h3>sito web a cura di  <a href="https://www.linkedin.com/in/damiano-mura-435299100/"><i class="fa-brands fa-square-linkedin" target="_blank"> </i>Damiano Mura</a> </h3>
+                                            <h3>sito web a cura di Damiano Mura </h3>
                                             <p>
                                                 <br>
                                                 Ho sempre amato il mondo della programmazione e dopo anni provando i lavori più disparati ho deciso di provare a trasformare
-                                                questa mia vecchia passione in un lavoro, si sà chi fà per passione non "lavora" mai, si diverte!! <i class="fa-brands fa-angellist"></i>.
-                                                <br>
-                                                <strong>    qui posterò tutti i miei lavori più rilevanti!! </strong> <br>, e proverò a rispolverare anche vecchie tecnologie studiate
-                                                negli anni come flutter per android integrate con un server laravel.
+                                                questa mia vecchia passione in un lavoro. <i class="fa-brands fa-angellist"></i>.
+                                              
+                                                
                                             
                                             </p>
+
                                         </div>
+                                       
                                     </div>
 
                                 </div>
                             </div>
 
-                            <div id="docs-card"
+                          
+
+                            <a id="docs-card" href="./projects"
                                 class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
                                 <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <i class="text-2xl fa-solid fa-microchip"></i>
+                                    <i class="fa-brands fa-git-alt"></i>
+                                </div>
+                            
+                                <div class="pt-3 sm:pt-5">
+                                    <h2 class="text-xl font-semibold text-black dark:text-white">Progetti</h2>
+                            
+                                  <strong> qui posterò tutti i miei lavori più rilevanti!! </strong> <br>sarà un'occasione per mettere insieme tutte le
+                                tecnologie studiate nel corso degli anni!
+                                </div>
+                            
+                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                                </svg>
+                            </a>
+                            <a id="docs-card" href="./about"
+                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
+                                    <i class="text-2xl fa-solid fa-address-card"></i>
+                                </div>
+                            
+                                <div class="pt-3 sm:pt-5">
+                                    <h2 class="text-xl font-semibold text-black dark:text-white">info personali</h2>
+                            
+                                    <p class="mt-4 text-sm/relaxed">
+                                        <strong>sezione infase di costruzione!</strong>
+                                        <span class="font-bold">presenterà:</span>
+                                    <ul class="flex">
+                                        <li>- curriculum vitae</li>
+                                        <li>- link vari</li>
+                                        <li>- contatti</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            
+                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                                </svg>
+                            </a>
+
+                            <a id="docs-card" href="./#"
+                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
+                                    <i class="text-2xl fa-solid fa-address-card"></i>
                                 </div>
                             
                                 <div class="pt-3 sm:pt-5">
                                     <h2 class="text-xl font-semibold text-black dark:text-white">Questo progetto</h2>
                                     <div class="p-3 ">
-
-                                        JDWdev.it nasce dalla necessità di dimostrare sul campo le competenze acquisite durante l'ultimo corso di studi <strong>Boolean Full Stack Web Developement</strong> in particolare L'ultima fase di specializzazione in PHP/Laravel.
-                                        Questo applicativo Laravel è hostato da Aruba.it con il servizio Linux Advanced Web Hosting
+                                                                                Messa in atto di cio che ho imparato con
+                                                                                <strong>Boolean Full Stack Web Developement</strong> in particolare L'ultima fase di specializzazione in
+                                        PHP/Laravel.
                                     </div>
                                 </div>
                             
@@ -53,49 +100,10 @@
                                     viewBox="0 0 24 24" stroke-width="1.5">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                                 </svg>
-                            </div>
-
-                            <a id="docs-card"
-                                href="./#"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                   <i class="text-2xl fa-solid fa-address-card"></i>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">chi sono?</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        In questa sezione cercherò di farmi conoscere un pò! Potrai visualizzare il mio cv e tutti i progetti in corso, o futuri (le idee non mancano) ...
-                                        nella mia vetrina compariranno tutti gli esercizi svolti, che ritengo meritino di essere pubblicati, durante il più recente corso Full Stack Web Developement di boolean iniziato a Maggio 2025 e in procinto di terminare con il progetto finale entro Gennaio 2026
-                                    </p>
-                                </div>
-
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
                             </a>
-
                            
 
-                            <div id="docs-card" class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                   <i class="text-2xl fa-solid fa-person-digging"></i>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">work in progress</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        sito ancora in fase di costruzione.
-                                    </p>
-
-                                    <p>
-                                        <strong>
-                                            VERSIONE TEST 1 messa online =) 
-                                        </strong>
-                                    </p>
-                                </div>
-                            </div>
+                         
                         </div>
                     </div>
 @endsection

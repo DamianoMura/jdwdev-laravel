@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.folder')
 @section('content')
 <div class="container mx-auto my-5 text-center">
     <h1 class="mb-4 text-4xl font-bold">about : per cosa nasce questo sito?!</h1>
