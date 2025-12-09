@@ -9,7 +9,7 @@
            
         </a>
 
-        <ul class="items-center hidden space-x-8 md:flex md:pl-28">
+        <ul class="items-center hidden space-x-8 text-3xl text-white md:flex md:pl-28">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/projects">Progetti</a></li>
@@ -25,7 +25,7 @@
         </button>
 
         <div class="mobile-menu absolute top-[70px] right-0 w-full bg-white z-10 shadow-sm p-6 hidden md:hidden ">
-            <ul class="flex space-y-4 text-lg ">
+            <ul class="flex flex-col space-y-4 text-lg ">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/projects">Progetti</a></li>
