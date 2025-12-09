@@ -6,7 +6,7 @@ $links=config('links');
     <nav class="flex items-center justify-between px-6 py-4 mx-auto mb-6 bg-blue-400 rounded-md">
         <div>
             <a href="./" class="flex items-center text-2xl font-bold gap-2s">
-              < <img src="{{Vite::asset('./resources/img/logo-jdw-trans-black.png')}}" alt="jdw logo" class="h-8 "> 
+              < <img src="{{url('./img/logo-jdw-trans-black.png')}}" alt="jdw logo" class="h-8 "> 
                <span> {{"dev.it>"}} </span>
             </a>
         </div>
