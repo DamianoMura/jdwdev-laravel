@@ -24,7 +24,7 @@
             
         </div> 
         <i class="fa-solid fa-link label">curriculum</i>
-   
+        
     </div>
             
            
