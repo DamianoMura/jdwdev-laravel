@@ -18,11 +18,14 @@
           <strong> qui posterò tutti i miei lavori più rilevanti!! </strong> <br>sarà un'occasione per mettere insieme tutte
           le
           tecnologie studiate nel corso degli anni!
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/DamianoMura/jdwdev-laravel"
+            class="flex items-center"> <i class="my-3 text-3xl fa-brands fa-git-alt"></i> github repo di www.jdwdev.it</a>
           <div class="flex items-center gap-6">
             <div
               class="my-10 flex size-12 shrink-0 self-center items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
               <i class="text-3xl fa-solid fa-person-digging"> </i>
             </div>
+            
             <p class="text-2xl">Work in Progress!</p>
           </div>
         </div>
