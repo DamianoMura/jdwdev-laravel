@@ -32,13 +32,12 @@ footer img{
 }
 main{
   position:absolute;
-  height:85vh;
-  width:95vw;
-  top:100px;
   left:2.5vw;
   z-index:5;
   overflow-y: auto;
-
+  bottom:10px;
+  height:85vh;
+  top:100px;
 }
 footer{
   position: absolute;
@@ -47,19 +46,9 @@ footer{
   overflow-y: hidden;
 }
 
-.menu{
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 255, 0.703);
-  color: aliceblue;
-  position: absolute;
-  right:0;
-  top:100%;
-  z-index:10;
-  border-radius: 15px;
-  padding:10px;
+.spec-logo{
+  width:150px;
 }
-
 
 
 .active {

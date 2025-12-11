@@ -9,7 +9,7 @@
   </header> 
   
    
-  <main class="w-full h-full p-5">
+  <main>
         
         @yield('content')
   </main>

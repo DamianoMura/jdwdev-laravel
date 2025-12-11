@@ -1,10 +1,5 @@
 import './bootstrap';
-tailwind.config = {
-  darkMode: 'class',
-  theme: {
-    extend: {}
-  }
-}
+
 
 let path= window.location.pathname.replace("/","")
 if (path==="") path="home";
@@ -17,5 +12,3 @@ else if (path==="settings" || path==="public/settings") selecter=3;
 //active link
 document.getElementById("nav-menu").children[selecter].className+=" active"
 document.getElementById("nav-menu").children[selecter].children[0].children[0].className="flex label"
-
-const logoButton = document.getElementById("logo-button");
