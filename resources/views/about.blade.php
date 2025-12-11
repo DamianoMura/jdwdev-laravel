@@ -97,7 +97,7 @@
                         <i class="text-2xl fa-solid fa-code-branch"></i>
                     </div>
     
-                    <div class="pt-3 sm:pt-5">
+                    <div class="flex flex-col h-full pt-3 sm:pt-5">
                         <h2 class="text-xl font-semibold text-black ">Questo progetto</h2>
                         <div class="p-3 ">
                             Con questo progetto vorrei dimostrare ciò che ho imparato negli anni e in particolare nell'ultimo corso
@@ -108,13 +108,12 @@
                         <div class="p-3 ">
                            Ho realizzato altri progettini come scraper con php e giochini con javascript come esercizio di stile per imparare ad utilizzare al meglio le tecnologie che ho imparato e tutto compresi gli esercizi della specializzazione boolean e qualche altro degno di nota del corso in presenza zoom riguardante React.js
                         </div>
+                        <div class="p-3">
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/DamianoMura/jdwdev-laravel" class="flex items-center"> <i class="mx-3 text-3xl fa-brands fa-git-alt"></i> github repo</a>
+                        </div>
                     </div>
     
-                    <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke-width="1.5">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
+                  
                 </div>
                 
     
