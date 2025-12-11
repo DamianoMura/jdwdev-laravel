@@ -2,23 +2,20 @@
 
 @section('layout')
 
-<div class="fullscreen">
- 
-  <div>
-    <div class="top-panel">
-      <x-nav-jdw> </x-nav-jdw>
-     
-    </div>
-      <main class="py-3 content">
-        
-        @yield('content')
-      </main>
-    </div>
+
+  
+  <header>
+   <x-jdwnav> </x-jdwnav>
+  </header> 
   
    
-  </div>
-</div>
+  <main class="w-full h-full p-5">
+        
+        @yield('content')
+  </main>
 
-
+  <footer style="background-image:url('./img/sfondo.jpg')">
+    
+  </footer>
 
 @endsection

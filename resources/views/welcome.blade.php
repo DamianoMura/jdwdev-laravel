@@ -7,28 +7,23 @@
 
                             <div class="flex flex-col gap-3 description">
                                 <div id="docs-card"
-                                        class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#3d3a3a] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                        class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#3d3a3a] md:row-span-3 lg:p-10 lg:pb-10 ">
                                     
                                     
                                         <div class="relative flex items-center gap-6 lg:items-end">
-                                            <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
+                                            <div id="docs-card-content" class="flex items-start gap-6">
                                                 <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                                        <path fill="#FF2D20"
-                                                            d="M23 4a1 1 0 0 0-1.447-.894L12.224 7.77a.5.5 0 0 1-.448 0L2.447 3.106A1 1 0 0 0 1 4v13.382a1.99 1.99 0 0 0 1.105 1.79l9.448 4.728c.14.065.293.1.447.1.154-.005.306-.04.447-.105l9.453-4.724a1.99 1.99 0 0 0 1.1-1.789V4ZM3 6.023a.25.25 0 0 1 .362-.223l7.5 3.75a.251.251 0 0 1 .138.223v11.2a.25.25 0 0 1-.362.224l-7.5-3.75a.25.25 0 0 1-.138-.22V6.023Zm18 11.2a.25.25 0 0 1-.138.224l-7.5 3.75a.249.249 0 0 1-.329-.099.249.249 0 0 1-.033-.12V9.772a.251.251 0 0 1 .138-.224l7.5-3.75a.25.25 0 0 1 .362.224v11.2Z" />
-                                                        <path fill="#FF2D20"
-                                                            d="m3.55 1.893 8 4.048a1.008 1.008 0 0 0 .9 0l8-4.048a1 1 0 0 0-.9-1.785l-7.322 3.706a.506.506 0 0 1-.452 0L4.454.108a1 1 0 0 0-.9 1.785H3.55Z" />
-                                                    </svg>
+                                                 <i class="text-3xl fa-solid fa-earth-europe"></i>
                                                 </div>
                                     
                                                 <div class="pt-3 sm:pt-5 lg:pt-0">
-                                                    <h2 class="text-xl font-semibold text-black dark:text-white">Benvenuti nel mio sito vetrina</h2>
+                                                    <h2 class="text-xl font-semibold text-black">Benvenuti nel mio sito vetrina</h2>
                                                     <h3>sito web a cura di Damiano Mura </h3>
                                                     <p>
                                                         <br>
                                                         Ho sempre amato il mondo della programmazione e dopo anni provando i lavori più disparati ho deciso
                                                         di provare a trasformare
-                                                        questa mia vecchia passione in un lavoro. <i class="fa-brands fa-angellist"></i>.
+                                                        questa mia vecchia passione in un lavoro. <i class="text-4xl fa-brands fa-angellists"></i>.
                                     
                                     
                                     
@@ -41,13 +36,13 @@
                                         </div>
                                     </div>
                                     <a id="docs-card" href="./about"
-                                            class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                            class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 ">
                                             <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
                                                 <i class="text-2xl fa-solid fa-address-card"></i>
                                             </div>
                                         
                                             <div class="pt-3 sm:pt-5">
-                                                <h2 class="text-xl font-semibold text-black dark:text-white">info personali</h2>
+                                                <h2 class="text-xl font-semibold text-black ">info personali</h2>
                                         
                                                 <p class="mt-4 text-sm/relaxed">
                                                     <strong>sezione infase di costruzione!</strong>
@@ -69,13 +64,13 @@
                             <div class="flex flex-col gap-3">
 
                                 <a id="docs-card" href="./projects"
-                                    class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                    class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 ">
                                     <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                        <i class="text-5xl fa-brands fa-git-alt"></i>
+                                        <i class="text-4xl fa-brands fa-git-alt"></i>
                                     </div>
                                 
                                     <div class="pt-3 sm:pt-5">
-                                        <h2 class="text-xl font-semibold text-black dark:text-white">Progetti</h2>
+                                        <h2 class="text-xl font-semibold text-black ">Progetti</h2>
                                 
                                       <strong> qui posterò tutti i miei lavori più rilevanti!! </strong> <br>sarà un'occasione per mettere insieme tutte le
                                     tecnologie studiate nel corso degli anni!
@@ -89,13 +84,13 @@
                           
     
                                 <a id="docs-card" href="./#"
-                                    class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                    class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 ">
                                     <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                        <i class="text-2xl fa-solid fa-address-card"></i>
+                                        <i class="text-2xl fa-solid fa-code-branch"></i>
                                     </div>
                                 
                                     <div class="pt-3 sm:pt-5">
-                                        <h2 class="text-xl font-semibold text-black dark:text-white">Questo progetto</h2>
+                                        <h2 class="text-xl font-semibold text-black ">Questo progetto</h2>
                                         <div class="p-3 ">
                                                                                     Messa in atto di cio che ho imparato con
                                                                                     <strong>Boolean Full Stack Web Developement</strong> in particolare L'ultima fase di specializzazione in
@@ -109,13 +104,13 @@
                                     </svg>
                                 </a>
                                 <a id="docs-card" href="./#"
-                                    class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                                    class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 ">
                                     <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                        <i class="fa-solid fa-person-digging"></i>
+                                        <i class="text-2xl fa-solid fa-person-digging"></i>
                                     </div>
                                 
                                     <div class="pt-3 sm:pt-5">
-                                        <h2 class="text-xl font-semibold text-black dark:text-white">work in progress!</h2>
+                                        <h2 class="text-xl font-semibold text-black ">work in progress!</h2>
                                         
                                     </div>
                                     

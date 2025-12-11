@@ -2,82 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-.slideshow-tech {
-  padding: 0 10px;
-  margin: 0 auto;
-  align-items: center;
-}
-
-.slideshow-tech img {
-  max-height: 70px;
-  max-width: 220px;
-}
-
-.fullscreen{
+#layout{
   height:100vh;
   width:100vw;
   position:relative;
-  overflow-x: hidden;
-  background-image: url('../../public/img/sfondo.jpg');
+  overflow: hidden;
+}
+
+header{
+  height:50vh;
+  position:absolute;
+  top:0;
+  background-image: linear-gradient(270deg,white,rgba(0, 0, 255, 0.672));
+  width:100%;
+}
+footer{
+  height:50vh;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  background-image: url('/public/img/laravel-logo.svg');
   background-position: bottom;
 }
-
-.top-panel {
-  height: 50vh;
-  background-image: linear-gradient(90deg, rgb(255, 255, 255), rgb(0, 26, 255));
-}
-
-.top-panel img{
-  position:absolute;
-  width:30vw;
-  opacity:0.5;
-}
-.content{
-  width:90vw;
-  height:85vh;
+footer img{
+  opacity: 0.8;
+  z-index:0;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.698);
-  border:solid rgba(138, 135, 135, 0.612) 1px;
-  border-radius: 25px;
-  margin: 10px auto;
-  top:13%;
-  right:5px;
+  bottom: 0;
+}
+main{
+  position:absolute;
+  height:85vh;
+  width:95vw;
+  top:100px;
+  left:2.5vw;
+  z-index:5;
   overflow-y: auto;
-  padding-bottom: 10px;
-  box-shadow: 10px 10px 60px black;
-}
-
-#docs-card{
-  opacity:0.8;
 
 }
-
-.logo{
-  height:80px;
-  width:80px;
+footer{
+  position: absolute;
+  bottom:0;
+  z-index:1;
+  overflow-y: hidden;
 }
 
-.logo img{
-    height: 60px;
-    width: 60px;
-    background-image: white;
-    margin-top: 10px;
-}
-
-.nav-jdw{
-  background-color: rgba(255, 255, 255, 0);
-}
-.layout{
-  position: relative;
-}
-
-.menu-link:hover{
-  color:black;
+.menu{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 255, 0.703);
+  color: aliceblue;
+  position: absolute;
+  right:0;
+  top:100%;
+  z-index:10;
+  border-radius: 15px;
+  padding:10px;
 }
 
 
 
+.active {
+  color: rgb(0, 0, 255);
+}
 
 
+#nav-menu li a span{
+  position:fixed;
+  top:68px;
+  right:50px;
+  font-size: 23px;
+  padding:0;
+  margin:0;
+}
